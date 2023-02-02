@@ -50,7 +50,7 @@ margin-top: 20px;
 } 
 table, th, td {
     border: 1px solid;
-    margin: 0px 200px 200px;
+    margin: 1px 160px 129px;
     width: 50%;
   }
   tbody {
@@ -79,7 +79,8 @@ footer {
 
   p {
     font-size: large;
-    margin: 0 392px 33px;
+    padding: 42px;
+    
 }
   #p {
     font-family: 'Itim', cursive;
@@ -92,6 +93,24 @@ footer {
     
 }
 
+tr:nth-child(even) {
+    background-color: rgb(246, 248, 248);
+  }
+  p.\31 {
+    color: green;
+    background: green;
+    /* padding: 16px; */
+    width: 80px;
+    margin: 14px 40px 16px;
+}
+table .no {
+
+    color: red;
+    background: red;
+    /* padding: 16px; */
+    width: 80px;
+    margin: 14px 40px 16px;
+}
 
 
 h3 {
