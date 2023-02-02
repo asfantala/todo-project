@@ -1,0 +1,124 @@
+* {
+    font-family: 'Righteous', cursive;
+}
+header {
+    background-color: rgb(163, 152, 152);
+    position: fixed;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 125px;
+    margin: -1px -6px -6px;
+    
+}
+
+nav {
+    float: right;  
+}
+nav ul li {
+    display: inline-block;
+    padding: 20px 10px;
+    font-family: 'Righteous', cursive;
+    margin-right: 30px;
+}
+
+a {
+    color: #f3e6cd;
+    text-decoration: none;
+}
+a.a1 {
+    margin-right: 420px;
+margin-top: 20px;
+}
+
+h1.a2 {
+    margin:  106px 364px 20px;
+    font-size: xx-large;
+    position: relative;
+}
+
+h1 {
+    margin: 50px 364px 20px;
+}
+.j  {
+    margin-right: 420px;
+margin-top: 20px;
+} 
+table, th, td {
+    border: 1px solid;
+    margin: 0px 200px 200px;
+    width: 50%;
+  }
+  tbody {
+    background-color: rgb(163, 152, 152);
+    
+}
+
+footer {
+    background-color: rgb(163, 152, 152);
+    position: fixed;
+    width: 100%;
+    position: static;
+    bottom: -1px;;
+  }
+
+  .im  {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    margin: -10px 0 10px 20px;
+    float: left
+
+  }
+
+  
+
+  p {
+    font-size: large;
+    margin: 0 392px 33px;
+}
+  #p {
+    font-family: 'Itim', cursive;
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 20px;
+    margin: 20px 300px 200px;
+    background-color: beige; 
+    margin: 20px 300px 200px;
+    outline-style: solid  ;
+    
+}
+
+
+
+h3 {
+    margin: 10px 377px;
+}
+
+
+form {
+
+    
+    margin: 20px 300px 200px;
+    
+}
+div#form {
+    margin: 50px 400px;
+}
+
+input, select, button {
+    padding: 12px 20px;
+}
+
+input, select, button {
+    padding: 12px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+
