@@ -1,8 +1,11 @@
+
 * {
     font-family: 'Righteous', cursive;
 }
 header {
-    background-color: rgb(163, 152, 152);
+    
+
+   background-color: rgb(163, 152, 152);
     position: fixed;
     width: 100%;
     position: absolute;
@@ -139,5 +142,4 @@ input, select, button {
     border-radius: 4px;
     margin-top: 15px;
 }
-
 
