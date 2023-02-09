@@ -44,25 +44,62 @@ alert ("Hello " +" " + inputRes );
 
 
 //ask 3 question
-let answers =[];
+// let answers =[];
 
-let question1 =prompt(" Do you like wakeup early? ");
-if (question1 =="") {answers.push("invalid");
-}else{
-    answers.push(question1);
+// let question1 =prompt(" Do you like wakeup early? ");
+// if (question1 =="") {answers.push("invalid");
+// }else{
+//     answers.push(question1);
+// }
+
+// let question2 = prompt(" Do you like drink coffee?");
+// if (question2 ==""){answers.push("invalid");
+// }else{
+//     answers.push(question2);
+// }
+// let question3 =prompt(" Do you like using this web ? ");
+// console.log(question3);
+// if (question3 =="") {answers.push("invalid");
+// }else{
+//     answers.push(question3);
+// }
+
+//  console.log(answers);
+
+
+let question =[" Do you like wakeup early? ",
+" Do you like drink coffee?",
+" Do you like using this web ? "];
+
+const answers =()=> {
+for (let i = 0; i < question.length; i++) {
+let questions = prompt (question [i]);
+if (questions === "yes" || questions === "no") {
+    return questions;
+  }
+  return "invalid";
+};
+
 }
 
-let question2 = prompt(" Do you like drink coffee?");
-if (question2 ==""){answers.push("invalid");
-}else{
-    answers.push(question2);
+let answer =[];
+for (let i = 0; i < question.length; i++) {
+  answer.push(answers());
 }
-let question3 =prompt(" Do you like using this web ? ");
-console.log(question3);
-if (question3 =="") {answers.push("invalid");
-}else{
-    answers.push(question3);
-}
+console.log (answer);
 
- console.log(answers);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
