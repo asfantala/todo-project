@@ -86,8 +86,9 @@ let answer =[];
 for (let i = 0; i < question.length; i++) {
   answer.push(answers());
 }
-console.log (answer);
-
+for ( let x=0 ; x<answer.length;x++){
+    console.log(answer[x]);
+}
 
 
 
